@@ -212,7 +212,6 @@ int main(){
 
     while(getline(inFile,line)){
         string binaryInstruction ="";
-        cout << line << "\n";
         parser.setLine(line);
         if(!parser.isAInstruction()){
             string D = parser.getCInstructionD();
