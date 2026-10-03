@@ -1,0 +1,17 @@
+# Build files
+*.o
+*.out
+*.exe
+
+# Executable
+assembler
+
+# Generated Hack files
+*.hack
+
+# Generated intermediate files
+fileL.asm
+
+# IDE/editor
+.vscode/
+.idea/
